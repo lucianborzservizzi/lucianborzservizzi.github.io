@@ -12,26 +12,39 @@ body {
 }
 
 header {
-  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-              url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122");
+  color: white;
+  text-align: center;
+}
+
+/* Zona logoului */
+.logo-header {
+  text-align: center;
+  background: transparent;
+  position: relative;
+  z-index: 10;
+  margin-bottom: -80px;
+  padding: 30px 20px;
+}
+
+.logo-header img {
+  width: 280px;
+  max-width: 90%;
+  height: auto;
+}
+
+/* Zona imaginii de fundal și butonului */
+.call-header {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122");
+
   background-size: cover;
   background-position: center;
-  color: white;
   text-align: center;
   padding: 110px 20px;
 }
 
-header h1 {
-  font-size: 44px;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-header p {
-  font-size: 22px;
-  margin-bottom: 30px;
-}
-
+/* Butoane */
 .button {
   display: inline-block;
   background: #d9822b;
@@ -46,6 +59,7 @@ header p {
   background: #b8641d;
 }
 
+/* Secțiuni */
 section {
   max-width: 1100px;
   margin: auto;
@@ -64,6 +78,7 @@ section p {
   font-size: 17px;
 }
 
+/* Secțiuni închise */
 .dark {
   background: #222;
   color: white;
@@ -75,6 +90,7 @@ section p {
   text-align: center;
 }
 
+/* Carduri */
 .cards {
   max-width: 1100px;
   margin: auto;
@@ -91,6 +107,7 @@ section p {
   font-weight: bold;
 }
 
+/* Liste */
 ul {
   padding-left: 25px;
 }
@@ -100,10 +117,12 @@ li {
   font-size: 17px;
 }
 
+/* Contact */
 .contact {
   text-align: center;
 }
 
+/* Footer */
 footer {
   background: #111;
   color: #ccc;
@@ -111,125 +130,61 @@ footer {
   padding: 20px;
 }
 
+/* Galerie */
 .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin: 35px auto 0 auto;
-    max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 35px auto 0 auto;
+  max-width: 900px;
 }
 
 .gallery-grid img {
-    width: 100%;
- height: 250px;
+  width: 100%;
+  height: 250px;
   object-fit: cover;
-  border-radius: 10px:
-background: #222;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+  border-radius: 10px;
+  background: #222;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 }
 
+/* Video */
 .video-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
-    max-width: 900px;
-    margin: 50px auto;
-    text-align: center;
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
 }
 
 .video-project video {
-    width: 100%;
+  width: 100%;
   height: 180px;
   object-fit: cover;
-    border-radius: 10px;
+  border-radius: 10px;
 }
-.logo-header {
-    text-align: center;
-  background: transparent;
-  position: relative;
-  z-index: 10;
-  margin-bottom: -80px;
-    padding: 30px 20px;
-}
-.logo-header img {
-width: 280px;
-    max-width: 90%;
-  height: auto;
+
+/* Telefon */
+@media (max-width: 600px) {
+  .logo-header img {
+    width: 220px;
+  }
+
+  .logo-header {
+    margin-bottom: -60px;
+  }
 
   .call-header {
-    text-allign: center;
-    padding: 15px 0 25px 0;
-    background: transparent;
+    padding: 100px 20px 60px;
   }
-  /* Fundal general al paginii */
-body {
-    margin: 0;
-    background-color: #e9edf1;
-    color: #202832;
-}
 
-/* Zona în care se află logoul */
-.logo-header {
-    background: #151b22;
-    padding: 25px 20px;
-    margin-bottom: -80px;
-}
-
-/* Logoul rămâne nemodificat */
-.logo-header img {
-    width: 280px;
-    max-width: 90%;
-    height: auto;
-}
-
-/* Zona imaginii principale */
-.hero {
-    background-color: #151b22;
-}
-
-/* Zona butonului */
-.call-header {
-    text-align: center;
-    padding: 15px 0 25px 0;
-    background: transparent;
-}
-
-/* Butonul Call Now */
-.call-header a,
-.call-header button {
-    display: inline-block;
-    background: #087bea;
-    color: white;
-    padding: 14px 28px;
-    border: none;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-}
-
-/* Când treci cu mouse-ul peste buton */
-.call-header a:hover,
-.call-header button:hover {
-    background: #005bb5;
-}
-
-/* Secțiunile albe cu texte */
-section {
-    background: #f4f6f8;
-    color: #202832;
-}
-
-/* Titlurile secțiunilor */
-section h2 {
-    color: #15202b;
-    border-left: 5px solid #087bea;
-    padding-left: 12px;
-}
- .logo-header {
-   background: red !important;
- }
-  .call-header a,
-  .call-header button {
-    background: blue !important;
+  .video-container {
+    grid-template-columns: 1fr;
   }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+  }
+}
