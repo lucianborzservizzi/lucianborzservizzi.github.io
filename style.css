@@ -226,3 +226,6 @@ section h2 {
     border-left: 5px solid #087bea;
     padding-left: 12px;
 }
+  body {
+    background: red !important;
+}
