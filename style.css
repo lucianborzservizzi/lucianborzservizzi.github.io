@@ -226,6 +226,10 @@ section h2 {
     border-left: 5px solid #087bea;
     padding-left: 12px;
 }
-  body {
-    background: red !important;
-}
+ .logo-header {
+   background: red !important;
+ }
+  .call-header a,
+  .call-header button {
+    background: blue !important;
+  }
