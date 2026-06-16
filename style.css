@@ -189,9 +189,14 @@ body {
 
 /* Zona butonului */
 .call-header {
-    text-align: center;
-    padding: 15px 0 25px 0;
-    background: transparent;
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122");
+
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 110px 20px
 }
 
 /* Butonul Call Now */
