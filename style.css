@@ -161,3 +161,68 @@ width: 280px;
     padding: 15px 0 25px 0;
     background: transparent;
   }
+  /* Fundal general al paginii */
+body {
+    margin: 0;
+    background-color: #e9edf1;
+    color: #202832;
+}
+
+/* Zona în care se află logoul */
+.logo-header {
+    background: #151b22;
+    padding: 25px 20px;
+    margin-bottom: -80px;
+}
+
+/* Logoul rămâne nemodificat */
+.logo-header img {
+    width: 280px;
+    max-width: 90%;
+    height: auto;
+}
+
+/* Zona imaginii principale */
+.hero {
+    background-color: #151b22;
+}
+
+/* Zona butonului */
+.call-header {
+    text-align: center;
+    padding: 15px 0 25px 0;
+    background: transparent;
+}
+
+/* Butonul Call Now */
+.call-header a,
+.call-header button {
+    display: inline-block;
+    background: #087bea;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Când treci cu mouse-ul peste buton */
+.call-header a:hover,
+.call-header button:hover {
+    background: #005bb5;
+}
+
+/* Secțiunile albe cu texte */
+section {
+    background: #f4f6f8;
+    color: #202832;
+}
+
+/* Titlurile secțiunilor */
+section h2 {
+    color: #15202b;
+    border-left: 5px solid #087bea;
+    padding-left: 12px;
+}
