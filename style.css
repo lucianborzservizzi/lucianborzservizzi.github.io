@@ -143,3 +143,14 @@ background: #222;
   object-fit: cover;
     border-radius: 10px;
 }
+.logo-header {
+    text-align: center;
+    padding: 30px 20px;
+    background: #111;
+}
+
+.logo-header img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+}
