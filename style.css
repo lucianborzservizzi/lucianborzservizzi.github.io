@@ -50,6 +50,9 @@ body > *:not(.background-logo) {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+
+  position: relative;
+  z-index: 3;
 }
 
 .button:hover {
@@ -168,12 +171,26 @@ footer {
   .call-header {
     padding: 90px 20px;
   }
+  
 .call-header h1 {
-  font-size: 34px;
+  color: #ffffff;
+  font-size: 54px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.95);
+  position: relative;
+  z-index: 3;
 }
 
-.subtitle {
-  font-size: 16px;
+subtitle {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-shadow: 0 3px 14px rgba(0,0,0,0.95);
+  position: relative;
+  z-index: 3;
 }
   
   section {
