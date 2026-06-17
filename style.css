@@ -16,8 +16,8 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 70vw;
-  height: 70vh;
+  width: 80vw;
+  height: 80vh;
   background: url("logo.jpeg") center center no-repeat;
   background-size: contain;
   opacity: 0.80 !important;
@@ -32,6 +32,7 @@ body > *:not(.background-logo) {
   z-index: 1;
 }
 
+/* Header principal */
 .call-header {
   background:
     linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
@@ -42,6 +43,22 @@ body > *:not(.background-logo) {
   padding: 120px 20px;
 }
 
+.call-header h1 {
+  color: white;
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Butoane */
 .button {
   display: inline-block;
   background: #d9822b;
@@ -56,6 +73,7 @@ body > *:not(.background-logo) {
   background: #b8641d;
 }
 
+/* Secțiuni */
 section {
   max-width: 1100px;
   margin: auto;
@@ -74,6 +92,7 @@ section p {
   font-size: 17px;
 }
 
+/* Secțiuni închise */
 .dark {
   background: #222;
   color: white;
@@ -85,6 +104,7 @@ section p {
   text-align: center;
 }
 
+/* Carduri */
 .cards {
   max-width: 1100px;
   margin: auto;
@@ -101,6 +121,7 @@ section p {
   font-weight: bold;
 }
 
+/* Liste */
 ul {
   padding-left: 25px;
 }
@@ -110,6 +131,7 @@ li {
   font-size: 17px;
 }
 
+/* Galerie foto */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -127,6 +149,7 @@ li {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 }
 
+/* Video */
 .video-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -143,10 +166,12 @@ li {
   border-radius: 10px;
 }
 
+/* Contact */
 .contact {
   text-align: center;
 }
 
+/* Footer */
 footer {
   background: #111;
   color: #ccc;
@@ -156,15 +181,24 @@ footer {
   z-index: 1;
 }
 
+/* Telefon */
 @media (max-width: 600px) {
   .background-logo {
-    width: 140vw;
-    height: 140vh;
-    opacity: 0.80 !important;
+    width: 120vw;
+    height: 120vh;
+    opacity: 0.65 !important;
   }
 
   .call-header {
     padding: 90px 20px;
+  }
+
+  .call-header h1 {
+    font-size: 34px;
+  }
+
+  .subtitle {
+    font-size: 16px;
   }
 
   section {
