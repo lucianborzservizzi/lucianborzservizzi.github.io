@@ -16,8 +16,8 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 110vw;
-  height: 110vh;
+  width: 100vw;
+  height: 100vh;
   background: url("logo.jpeg") center center no-repeat;
   background-size: contain;
   opacity: 0.80 !important;
