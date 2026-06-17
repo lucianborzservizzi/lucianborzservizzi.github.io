@@ -11,7 +11,7 @@ body {
   background: #f4f4f4;
 }
 
-/* Logo mare, fix, transparent în fundal */
+/* Logo mare, fix, în fundal */
 .background-logo {
   position: fixed;
   top: 50%;
@@ -20,7 +20,7 @@ body {
   height: 140vh;
   background: url("logo.jpeg") center center no-repeat;
   background-size: contain;
-  opacity: 0.80; !important;
+  opacity: 0.80 !important;
   transform: translate(-50%, -50%);
   pointer-events: none;
   z-index: 0;
@@ -32,19 +32,16 @@ body > *:not(.background-logo) {
   z-index: 1;
 }
 
-/* Header cu imagine industrială și buton */
 .call-header {
   background:
     linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122");
-
   background-size: cover;
   background-position: center;
   text-align: center;
   padding: 120px 20px;
 }
 
-/* Butoane */
 .button {
   display: inline-block;
   background: #d9822b;
@@ -59,12 +56,11 @@ body > *:not(.background-logo) {
   background: #b8641d;
 }
 
-/* Secțiuni albe semi-transparente */
 section {
   max-width: 1100px;
   margin: auto;
   padding: 60px 20px;
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(255, 255, 255, 0.45);
 }
 
 section h2 {
@@ -78,7 +74,6 @@ section p {
   font-size: 17px;
 }
 
-/* Secțiuni închise */
 .dark {
   background: #222;
   color: white;
@@ -90,7 +85,6 @@ section p {
   text-align: center;
 }
 
-/* Carduri */
 .cards {
   max-width: 1100px;
   margin: auto;
@@ -107,7 +101,6 @@ section p {
   font-weight: bold;
 }
 
-/* Liste */
 ul {
   padding-left: 25px;
 }
@@ -117,7 +110,6 @@ li {
   font-size: 17px;
 }
 
-/* Galerie foto */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -135,7 +127,6 @@ li {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 }
 
-/* Video */
 .video-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -152,12 +143,10 @@ li {
   border-radius: 10px;
 }
 
-/* Contact */
 .contact {
   text-align: center;
 }
 
-/* Footer */
 footer {
   background: #111;
   color: #ccc;
@@ -167,12 +156,11 @@ footer {
   z-index: 1;
 }
 
-/* Telefon */
 @media (max-width: 600px) {
   .background-logo {
     width: 140vw;
     height: 140vh;
-    opacity: 0.65 !important;  
+    opacity: 0.80 !important;
   }
 
   .call-header {
@@ -190,9 +178,4 @@ footer {
   .gallery-grid {
     grid-template-columns: 1fr;
   }
-}
-
-section {
-    background: rgba(255,255,255,0.45);
-}
 }
