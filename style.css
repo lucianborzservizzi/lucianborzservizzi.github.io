@@ -170,8 +170,8 @@ footer {
 /* Telefon */
 @media (max-width: 600px) {
   .background-logo {
-    width: 110vw;
-    height: 110vh;
+    width: 140vw;
+    height: 140vh;
     opacity: 0.18;
   }
 
@@ -190,4 +190,12 @@ footer {
   .gallery-grid {
     grid-template-columns: 1fr;
   }
+}
+width: 140vw;
+height: 140vh;
+opacity: 0.35;
+
+section {
+    background: rgba(255,255,255,0.60);
+    backdrop-filter: blur(2px);
 }
