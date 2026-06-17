@@ -172,7 +172,7 @@ footer {
   .background-logo {
     width: 140vw;
     height: 140vh;
-    opacity: 0.18;
+    opacity: 0.65 !important;  
   }
 
   .call-header {
@@ -194,5 +194,5 @@ footer {
 
 section {
     background: rgba(255,255,255,0.45);
-    backdrop-filter: blur(2px);
+}
 }
