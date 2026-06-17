@@ -54,34 +54,19 @@ body > *:not(.background-logo) {
 }
 
 .call-header h1 .metal {
-  background: linear-gradient(
-    to bottom,
-    #ffffff 0%,
-    #d9d9d9 25%,
-    #9d9d9d 45%,
-    #ffffff 60%,
-    #6f6f6f 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #cfcfcf;
+
   text-shadow:
-    0 2px 8px rgba(255,255,255,0.25),
-    0 4px 12px rgba(0,0,0,0.95);
+    0 1px 2px rgba(255,255,255,0.2),
+    0 3px 8px rgba(0,0,0,0.8);
 }
 
 .call-header h1 .blue {
-  background: linear-gradient(
-    to bottom,
-    #9ee6ff 0%,
-    #35b7ff 35%,
-    #0077d9 70%,
-    #003f8f 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #2ea8ff;
+
   text-shadow:
-    0 0 16px rgba(0,150,255,0.55),
-    0 4px 12px rgba(0,0,0,0.95);
+    0 0 8px rgba(0,140,255,0.35),
+    0 3px 8px rgba(0,0,0,0.8);
 }
 
 .subtitle {
