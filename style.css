@@ -46,24 +46,13 @@ padding: 120px 20px;
 .call-header h1 {
 color: #ffffff;
 font-size: 54px;
-font-weight: 800;
+font-weight: 900;
 margin-bottom: 10px;
 text-transform: uppercase;
-letter-spacing: 2px;
+letter-spacing: 3px;
 text-shadow: 0 4px 18px rgba(0,0,0,0.95);
 position: relative;
 z-index: 3;
-background: linear-gradient(
-    to bottom,
-    #ffffff 0%,
-    #d9d9d9 35%,
-    #ffffff 50%,
-    #9a9a9a 75%,
-    #ffffff 100%
-);
-
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
 
 text-shadow:
   0 2px 3px rgba(0,0,0,0.8),
